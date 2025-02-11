@@ -8,6 +8,11 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  synapticon_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/synapticon/synapticon_ros2_control-release.git
+      version: 0.1.0-1
   aandd_ekew_driver_py:
     doc:
       type: git
